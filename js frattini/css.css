@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.bodyDark{
+	background-color: #000;
+	transition: 1.2s;
+}
+
+.body{
+	transition: 1.2s;
+}
+
+.section{
+
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		
+}
+
+
+.box{
+	width: 50%;
+	height: 50%;
+	display: flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.button{
+	border-radius: 10px;
+	width: 100px;
+
+}
+
+
+.text{
+	font-weight: bold;
+	padding: 5px;
+	font-size: 20px;
+	transition: 1.2s;
+}
+
+.textDark{
+	color: #fff;
+	transition: 1.2s;
+}
